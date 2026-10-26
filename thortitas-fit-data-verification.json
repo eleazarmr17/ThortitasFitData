@@ -1,0 +1,144 @@
+{
+  "api": {
+    "passed": true,
+    "checks": 90,
+    "syntheticUserPrefix": "qa_1792745044894",
+    "syntheticUserIds": [
+      "qa_1792745044894_a",
+      "qa_1792745044894_b",
+      "qa_1792745044894_unrelated"
+    ],
+    "environment": "local compiled Worker, loopback only, synthetic accounts",
+    "productionDataTouched": false,
+    "coverage": [
+      "identity",
+      "routine persistence",
+      "completed sets",
+      "historical snapshots",
+      "cross-routine history",
+      "session edits",
+      "step upsert",
+      "date/numeric validation",
+      "unlinked isolation",
+      "partner read access",
+      "owner-only writes",
+      "pair limit",
+      "decreasing goals",
+      "atomic challenge contributions",
+      "contribution ownership",
+      "likes/comments",
+      "nutrition dates",
+      "nutrition persistence",
+      "private media",
+      "own-data export",
+      "origin checks",
+      "deletion"
+    ],
+    "cleanup": {
+      "completedAt": "2026-10-23T13:03:33.922Z",
+      "localOnly": true,
+      "usersDeleted": 3,
+      "deletedUserIds": [
+        "qa_1792745044894_a",
+        "qa_1792745044894_b",
+        "qa_1792745044894_unrelated"
+      ],
+      "before": {
+        "routines": 13,
+        "sessions": 1,
+        "daily_steps": 1,
+        "body_weights": 0,
+        "goals": 1,
+        "challenges": 1,
+        "posts": 2,
+        "notifications": 5,
+        "media": 1,
+        "post_likes": 1,
+        "post_comments": 1,
+        "favorites": 0,
+        "partner_members": 2,
+        "partner_invites": 0
+      },
+      "after": {
+        "routines": 0,
+        "sessions": 0,
+        "daily_steps": 0,
+        "body_weights": 0,
+        "goals": 0,
+        "challenges": 0,
+        "posts": 0,
+        "notifications": 0,
+        "media": 0,
+        "post_likes": 0,
+        "post_comments": 0,
+        "favorites": 0,
+        "partner_members": 0,
+        "partner_invites": 0
+      },
+      "mediaObjectsDeleted": 1,
+      "remainingSyntheticUsers": 0,
+      "remainingSyntheticOwnedRows": 0,
+      "remainingSyntheticMediaObjects": 0,
+      "browserRecordsDeleted": [
+        {
+          "table": "routines",
+          "id": "1e514657-fad3-4c98-ba2d-5d46031e7bd9"
+        },
+        {
+          "table": "sessions",
+          "id": "7e39a539-17aa-4af1-a9d8-75e2f2031ef6"
+        },
+        {
+          "table": "sessions",
+          "id": "5128aa73-554b-4deb-9f46-e9e3d8760dea"
+        },
+        {
+          "table": "daily_steps",
+          "id": "7ea1cb60-a572-4536-a0e0-df8a0d78effe"
+        },
+        {
+          "table": "posts",
+          "id": "73c78bdf-4b18-442d-b4a3-01374bb12eff"
+        }
+      ],
+      "routineRestored": {
+        "id": "initial:local_seedy:Upper-Body-1",
+        "name": "Upper Body 1",
+        "category": "Upper Body 1",
+        "notes": "",
+        "exercises": []
+      },
+      "foreignKeyViolations": 0
+    }
+  },
+  "browser": {
+    "passed": true,
+    "environment": "local dev preview, local_seedy test identity",
+    "productionDataTouched": false,
+    "coverage": [
+      "routine save/readback",
+      "workout save",
+      "persistence after reload",
+      "cross-template previous 40 × 10",
+      "sets require explicit completion",
+      "same-day session chronology corrected and verified",
+      "session correction to 44 × 12",
+      "analytics 528 kg and +128 kg versus earlier 400 kg",
+      "total training volume 928 kg",
+      "daily steps updated to 7000 with one entry",
+      "meal 650 kcal,52 g protein,68 g carbs,18 g fat",
+      "like,comment and saved recipe"
+    ]
+  },
+  "cleanupVerified": true,
+  "buildPassed": true,
+  "typeCheckPassed": true,
+  "publication": {
+    "status": "blocked",
+    "reason": "Interactive stdin for official source synchronization rejected by session approval policy; noninteractive JavaScript environment lacks working repository connectivity",
+    "private": true,
+    "published": false,
+    "credentialExpiryIssueResolved": true,
+    "carlaViewerAccessEnabled": true
+  }
+}
